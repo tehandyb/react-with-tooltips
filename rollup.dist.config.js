@@ -2,12 +2,6 @@ import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 import nodeResolve from 'rollup-plugin-node-resolve'
 import replace from 'rollup-plugin-replace'
-import postcss from 'rollup-plugin-postcss'
-
-// PostCSS plugins
-import simplevars from 'postcss-simple-vars'
-import nested from 'postcss-nested'
-import cssnext from 'postcss-cssnext'
 
 export default {
   entry: 'src/with-tooltips.js',
